@@ -17,7 +17,7 @@ const ImageGalleryItem = ({ pictureTitle, pictutesUrl, cbOnClick }) => {
 };
 
 ImageGalleryItem.propTypes = {
-  pictureTitle: PropTypes.string,
+  pictureTitle: PropTypes.number,
   pictutesUrl: PropTypes.string,
   cbOnClick: PropTypes.func,
 };
